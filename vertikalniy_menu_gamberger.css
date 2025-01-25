@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.hamburger {
+    font-size: 28px;
+    cursor: pointer;
+    display: none; /* Скрываем гамбургер по умолчанию */
+}
+
+.nav {
+    display: flex; /* По умолчанию показываем горизонтальное меню */
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-right: 20px; /* Отступы между пунктами навигации */
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.nav button {
+    
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: #28a745;
+    color: white;
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Показываем гамбургер на мобильных устройствах */
+    }
+
+    .nav {
+        display: none; /* Скрываем навигацию по умолчанию */
+        flex-direction: column; /* Вертикальное расположение элементов навигации */
+        position: absolute; /* Абсолютное позиционирование для выпадающего меню */
+        top: 60px; /* Расположение под шапкой */
+        left: 0;
+        right: 0;
+        background-color: #f8f9fa; /* Фон меню */
+        border-top: 1px solid #ccc; /* Граница сверху */
+        z-index: 1000; /* Поверх других элементов */
+    }
+
+    .nav.active {
+        display: flex; /* Показываем меню при активном состоянии */
+    }
+
+    .nav li {
+        margin-right: 0; /* Убираем отступы между пунктами навигации */
+        margin-bottom: 10px; /* Отступ между пунктами навигации */
+        text-align: center; /* Центрирование текста */
+    }
+
+    .nav button {
+        width: 100%; /* Кнопки занимают всю ширину */
+        margin-left: 0; /* Убираем левый отступ */
+        margin-bottom: 10px; /* Отступ между кнопками */
+        padding: 12px; /* Увеличение высоты кнопок */
+        font-size: 16px; /* Увеличение размера шрифта кнопок */
+    }
+}

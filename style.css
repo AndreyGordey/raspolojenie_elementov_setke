@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0056b3;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    margin-right: 200px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.signup,
+.login {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: #28a745;
+    color: white;
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+}
+
+.signup:hover {
+    background-color: #218838;
+}
+
+.login:hover {
+    background-color: #0056b3;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Выравнивание по левому краю */
+        padding: 10px;
+        /* Уменьшение отступов */
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        /* Отступ между логотипом и навигацией */
+        font-size: 20px;
+        /* Уменьшение размера логотипа */
+    }
+
+    .nav ul {
+        flex-direction: column;
+        /* Вертикальное расположение элементов навигации */
+        width: 100%;
+        /* Ширина на весь экран */
+        padding-left: 0;
+        /* Убираем отступы */
+    }
+
+    .nav li {
+        margin-right: 0;
+        /* Убираем правый отступ */
+        margin-bottom: 10px;
+        /* Отступ между пунктами навигации */
+        text-align: center;
+        /* Центрирование текста */
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        /* Вертикальное расположение кнопок */
+        width: 100%;
+        /* Ширина на весь экран */
+        align-items: center;
+        /* Центрирование кнопок */
+        margin-top: 10px;
+        /* Отступ сверху */
+    }
+
+    .signup,
+    .login {
+        width: 100%;
+        /* Кнопки занимают всю ширину */
+        margin-left: 0;
+        /* Убираем левый отступ */
+        margin-bottom: 10px;
+        /* Отступ между кнопками */
+        padding: 12px;
+        /* Увеличение высоты кнопок */
+        font-size: 16px;
+        /* Увеличение размера шрифта кнопок */
+    }
+}
