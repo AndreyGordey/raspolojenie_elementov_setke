@@ -7,3 +7,5 @@ input_form
 ![127 0 0 1_5500_input_form html](https://github.com/user-attachments/assets/32b940ba-1036-4d56-971b-916c99714390)
 position_three_elements
 ![127 0 0 1_5500_position_three_elements html](https://github.com/user-attachments/assets/32d76adf-1739-449f-b6c9-32c350814f5b)
+slayders
+![127 0 0 1_5500_slayders html](https://github.com/user-attachments/assets/9b46962e-c09f-4eba-a131-59f0aeaa83b6)
