@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/slyders.css">
+    <title>Автоматический слайдер</title>
+
+</head>
+<body>
+
+<div class="slider">
+    <div class="slides">
+        <img src="/img/01-sun_98591.png" class="slide">
+        <img src="/img/09-uranus_98592.png" class="slide">
+        <img src="/img/jupiter_97172.png" class="slide">
+        <img src="/img/globe_planet_jupiter_2773.png" class="slide">
+    </div>
+</div>
+<script src="/js/slayders.js"></script>
+
+</body>
+</html>
+
+
+<!-- Пример 3: Слайдер с точками навигации
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/slyders.css">
+    <title>Слайдер с точками навигации</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .slider {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+        }
+        .dots {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #bbb;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .active {
+            background-color: #717171;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slider">
+    <div class="slides">
+        <img src="/img/01-sun_98591.png" class="slide">
+        <img src="/img/01-sun_98591.png" class="slide">
+        <img src="/img/01-sun_98591.png" class="slide">
+    </div>
+    <div class="dots"></div>
+</div>
+
+<script>
+    let currentSlide = 0;
+
+    function showSlides(index) {
+        const slides = document.querySelectorAll('.slide');
+        currentSlide = index;
+
+        if (currentSlide >= slides.length) {
+            currentSlide = 0;
+        } else if (currentSlide < 0) {
+            currentSlide = slides.length - 1;
+        }
+
+        const offset = -currentSlide * 100;
+        document.querySelector('.slides').style.transform = `translateX(${offset}%)`;
+
+        updateDots();
+    }
+
+    function createDots() {
+        const dotsContainer = document.querySelector('.dots');
+        const slides = document.querySelectorAll('.slide');
+
+        slides.forEach((_, index) => {
+            const dot = document.createElement('span');
+            dot.classList.add('dot');
+            dot.onclick = () => showSlides(index);
+            dotsContainer.appendChild(dot);
+        });
+    }
+
+    function updateDots() {
+        const dots = document.querySelectorAll('.dot');
+        
+        dots.forEach(dot => dot.classList.remove('active'));
+        
+        dots[currentSlide].classList.add('active');
+    }
+
+    createDots();
+    showSlides(currentSlide);
+    
+    setInterval(() => showSlides(currentSlide + 1), 3000); // Изменение слайда каждые 3 секунды
+</script>
+
+</body>
+</html>
+Вы можете использовать эти примеры как основу для создания своих собственных слайдеров,
+ изменяя стили и добавляя дополнительные функции по вашему усмотрению! -->

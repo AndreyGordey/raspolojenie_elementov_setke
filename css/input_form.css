@@ -1,0 +1,19 @@
+form {
+    margin: 20px;
+    font-size: 30px;
+    color: aqua;
+}
+.action {
+    font-size: 1rem;
+    color: blue;
+}
+
+textarea {
+    width: 50%;
+    float: left;
+}
+
+.range {
+    /* transform: rotate(90deg); */
+    color: blueviolet;
+}

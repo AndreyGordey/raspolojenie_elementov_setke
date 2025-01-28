@@ -1,0 +1,86 @@
+body {
+    background-color: gray;
+}
+
+/* ▎1. Flexbox----------------------------------------------- */
+.flex-container {
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center; /* Вертикальное выравнивание */
+    height: 100vh; /* Высота контейнера на весь экран */
+}
+
+.flex-item {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* ▎2. Grid -------------------------------------------------- */
+.grid-container {
+    display: grid;
+    place-items: center; /* Центрирование по горизонтали и вертикали */
+    height: 100vh; /* Высота контейнера на весь экран */
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* ▎3. Absolute Positioning------------------------------------ */
+.absolute-container {
+    position: relative;
+    height: 100vh; /* Высота контейнера на весь экран */
+}
+
+.absolute-item {
+    position: absolute;
+    top: 50%; /* Позиционируем по вертикали */
+    left: 50%; /* Позиционируем по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвигаем на половину ширины и высоты блока */
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* 4. Margin Auto (для фиксированной ширины) */
+.margin-auto-container {
+    height: 100vh; /* Высота контейнера на весь экран */
+}
+
+.margin-auto-item {
+    width: 300px; /* Фиксированная ширина */
+    margin: auto; /* Автоматические отступы для центрирования */
+    padding: 1px;
+    background-color: #007bff;
+    color: white;
+    position: relative; /* Для вертикального центрирования можно использовать дополнительные методы */
+    top: 50%;
+    transform: translateY(-50%); /* Вертикальное центрирование */
+}
+
+.p {
+    display: grid;
+    place-items: center; /* Центрирование по горизонтали и вертикали */
+}
+
+/*  */
+.table-container {
+    display: table;
+    height: 100vh; /* Высота контейнера на весь экран */
+    width: 100%; /* Ширина на весь экран */
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle; /* Вертикальное выравнивание */
+    text-align: center; /* Горизонтальное выравнивание */
+}
+
+.table-cell > div {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
