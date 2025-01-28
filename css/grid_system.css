@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column: span 4;
+}
+
+.item2 {
+    grid-column: span 8;
+}
+
+.item3 {
+    grid-column: span 6;
+}
+
+.item4 {
+    grid-column: span 6;
+}
