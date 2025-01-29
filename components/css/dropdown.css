@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.dropdown {
+    position: relative; /* Относительное позиционирование для контейнера */
+    display: inline-block; /* Отображение в строчном блоке */
+}
+
+.dropbtn {
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 16px; /* Внутренние отступы */
+    font-size: 16px; /* Размер шрифта */
+    border: none; /* Убираем рамку */
+    cursor: pointer; /* Указатель при наведении */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.dropdown-content {
+    display: none; /* Скрываем содержимое по умолчанию */
+    position: absolute; /* Абсолютное позиционирование для выпадающего меню */
+    background-color: #f9f9f9; /* Цвет фона выпадающего меню */
+    min-width: 160px; /* Минимальная ширина меню */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Тень для выпадающего меню */
+    z-index: 1; /* Устанавливаем порядок наложения */
+}
+
+.dropdown-content a {
+    color: black; /* Цвет текста ссылок */
+    padding: 12px 16px; /* Внутренние отступы для ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    display: block; /* Отображение ссылок как блоки */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Цвет фона при наведении на ссылку */
+}
+
+/* Показываем содержимое при наведении на кнопку */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

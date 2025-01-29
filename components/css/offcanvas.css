@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px; /* Ширина боковой панели */
+    position: fixed; /* Фиксированное позиционирование */
+    left: -280px; /*Скрываем боковую панель за пределами экрана*/
+    background-color: #333;
+    color: white; /* Цвет текста */
+    transition: left 0.3s ease; /* Плавный переход */
+    padding: 15px; /* Внутренние отступы */
+}
+
+.sidebar h2 {
+    margin-top: 0; /* Убираем верхний отступ у заголовка */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы списка */
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Отступы между элементами списка */
+}
+
+.sidebar ul li a {
+    color: white; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.content {
+    margin-left: 40px; /* Отступ для контента */
+}
+
+.toggle-btn {
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    padding: 10px 15px; /* Внутренние отступы */
+    cursor: pointer; /* Указатель при наведении */
+    border-radius: 5px; /* Закругленные углы */
+
+    margin-left: 210px; /* Отступ для контента */
+}

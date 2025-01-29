@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Центрируем пагинацию */
+    align-items: center; /* Выравнивание по центру */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.pagination a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #007BFF; /* Цвет ссылок */
+    padding: 10px 15px; /* Внутренние отступы */
+    border: 1px solid #007BFF; /* Рамка вокруг ссылок */
+    margin: 0 5px; /* Отступы между элементами */
+    border-radius: 5px; /* Закругленные углы */
+    transition: background-color 0.3s; /* Плавный переход фона */
+}
+
+.pagination a:hover {
+    background-color: #007BFF; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+.pagination a.active {
+    background-color: #007BFF; /* Цвет фона для активной страницы */
+    color: white; /* Цвет текста для активной страницы */
+    border: 1px solid #007BFF; /* Рамка для активной страницы */
+}

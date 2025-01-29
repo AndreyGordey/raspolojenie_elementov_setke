@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed; /* Фиксированное положение */
+    z-index: 1; /* На переднем плане */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ширина 100% */
+    height: 100%; /* Высота 100% */
+    overflow: auto; /* Прокрутка при необходимости */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+}
+
+.modal-content {
+    background-color: white; /* Белый фон для содержимого */
+    margin: 15% auto; /* Отступ сверху и центрирование */
+    padding: 20px; /* Внутренние отступы */
+    border: 1px solid #888; /* Рамка */
+    width: 80%; /* Ширина содержимого */
+    border-radius: 10px; /* Закругленные углы */
+}
+
+.close-button {
+    color: #aaa; /* Цвет кнопки закрытия */
+    float: right; /* Выравнивание вправо */
+    font-size: 28px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black; /* Цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer; /* Указатель при наведении */
+}

@@ -1,0 +1,54 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.accordion {
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 15px;
+     Скрываем содержимое по умолчанию
+    display: none;
+} */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.accordion {
+    width: 300px;
+    border: 1px solid #ccc;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 15px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none; /* Скрываем содержимое по умолчанию */
+    transition: max-height 0.2s ease-out; /* Анимация */
+}

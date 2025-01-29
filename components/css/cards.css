@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Позволяет карточкам занимать несколько строк */
+    background-color: #616161;
+    padding: 20px;
+}
+
+.card {
+    background-color: white; /* Цвет фона карточки */
+    border: 1px solid #ddd; /* Рамка карточки */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень */
+    margin: 15px; /* Отступ между карточками */
+    width: 300px; /* Ширина карточки */
+}
+
+.card-img {
+    width: 100%; /* Ширина изображения */
+    border-top-left-radius: 10px; /* Закругление верхнего левого угла */
+    border-top-right-radius: 10px; /* Закругление верхнего правого угла */
+}
+
+.card-content {
+    padding: 15px; /* Отступы внутри карточки */
+}
+
+.card-title {
+    font-size: 1.5em; /* Размер заголовка */
+    margin: 0; /* Убираем отступы */
+}
+
+.card-description {
+    font-size: 1em; /* Размер описания */
+    color: #555; /* Цвет текста описания */
+}
+
+.buy-button {
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные углы кнопки */
+    padding: 10px 15px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.buy-button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
