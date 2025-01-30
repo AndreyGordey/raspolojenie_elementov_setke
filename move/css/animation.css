@@ -1,0 +1,69 @@
+body {
+    background-color: gray;
+}
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    /* Для перемещения */
+    animation: moveAndChangeColor 3s infinite;
+    /* Применение анимации */
+}
+
+@keyframes moveAndChangeColor {
+    0% {
+        background-color: blue;
+        transform: translateX(0);
+    }
+
+    50% {
+        background-color: red;
+        transform: translateX(200px);
+    }
+
+    100% {
+        background-color: blue;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.rotating-box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: rotate 2s linear infinite; /* Применение анимации */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Начальный угол */
+    }
+    to {
+        transform: rotate(360deg); /* Конечный угол */
+    }
+}
+
+
+
+
+
+.pulsing-box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation: pulse 1s ease-in-out infinite; /* Применение анимации */
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1); /* Исходный размер */
+    }
+    50% {
+        transform: scale(1.2); /* Увеличение размера */
+    }
+}

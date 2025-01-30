@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: background-color 0.5s ease; /* Переход для фона */
+    margin: 1%;
+}
+
+.box:hover {
+    background-color: green; /* Цвет при наведении */
+}
+
+
+
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%; /* Круглая форма */
+    transition: transform 0.5s ease; /* Переход для трансформации */
+    
+}
+
+.circle:hover {
+    transform: scale(1.5); /* Увеличение при наведении */
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.993);
+}
+
+
+
+
+.fade {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    opacity: 1; /* Полная видимость */
+    transition: opacity 0.5s ease; /* Переход для прозрачности */
+}
+
+.fade:hover {
+    opacity: 0.3; /* Полупрозрачный при наведении */
+}
