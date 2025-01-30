@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #686868;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.block {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 90%; /* Ширина блока по умолчанию */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+}
+
+/* Медиа-запрос для экранов шириной более 600px */
+@media (min-width: 600px) {
+    main {
+        flex-direction: row; /* Изменяем направление на ряд */
+        justify-content: space-around; /* Распределяем блоки по горизонтали */
+    }
+
+    .block {
+        width: 45%; /* Ширина блоков на больших экранах */
+    }
+}

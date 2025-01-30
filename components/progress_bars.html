@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/components/css/progress_bars.css">
+    <title>Progress Bars Example</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Прогресс-бары</h1>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar1">
+                <div class="progress" id="progress1"></div>
+            </div>
+            <button onclick="increaseProgress('progress1', 10)">Увеличить прогресс 1 на 10%</button>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar2">
+                <div class="progress" id="progress2"></div>
+            </div>
+            <button onclick="increaseProgress('progress2', 20)">Увеличить прогресс 2 на 20%</button>
+        </div>
+    </div>
+    <p>1. HTML создает два прогресс-бара и кнопки для их обновления.
+
+        2. CSS стилизует прогресс-бары и кнопки.
+        
+        3. JavaScript определяет функцию increaseProgress, которая увеличивает ширину указанного прогресс-бара на заданое количество процентов.</p>
+
+    <script src="/components/js/progress_bars.js"></script>
+</body>
+</html>

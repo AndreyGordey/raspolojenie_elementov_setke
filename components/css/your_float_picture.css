@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: gray;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.float-left {
+    float: left; /* Обтекание текста слева */
+    margin-right: 15px; /* Отступ справа от изображения */
+    margin-bottom: 15px; /* Отступ снизу от изображения */
+}

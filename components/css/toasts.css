@@ -1,0 +1,48 @@
+body {
+    /* font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+    background-color: gray;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    background-color: gray;
+
+
+}
+
+#showToastButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#toastContainer {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.toast {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition: opacity 0.5s ease-out; 
+}
+
+.toast.hide {
+    opacity: 0;
+}
