@@ -8,6 +8,8 @@ input_form
 ![127 0 0 1_5500_input_form html](https://github.com/user-attachments/assets/32b940ba-1036-4d56-971b-916c99714390)
 position_three_elements
 ![127 0 0 1_5500_position_three_elements html](https://github.com/user-attachments/assets/32d76adf-1739-449f-b6c9-32c350814f5b)
+otzivchiviy_sayt
+![127 0 0 1_5500_otzivchiviy_sayt html](https://github.com/user-attachments/assets/2462fe72-37a4-4fb6-80af-c9f9d0a9a3f1)
 slayders
 ![127 0 0 1_5500_slayders html](https://github.com/user-attachments/assets/9b46962e-c09f-4eba-a131-59f0aeaa83b6)
 2 components
@@ -33,3 +35,15 @@ offcanvas
 ![127 0 0 1_5500_components_offcanvas html](https://github.com/user-attachments/assets/c484bb08-4771-4d31-b190-f98ef37f1cb5)
 pagination
 ![127 0 0 1_5500_components_pagination html](https://github.com/user-attachments/assets/ff93abee-2d16-4a86-99fa-4bc5f8f4b8ef)
+popovers
+![127 0 0 1_5500_components_popovers html](https://github.com/user-attachments/assets/e0b649b1-1d8c-43bb-9a72-691870178f63)
+progress_bars
+![127 0 0 1_5500_components_progress_bars html](https://github.com/user-attachments/assets/6d06e302-44ee-49ae-830f-ebc98d77a1b4)
+scrollspy
+![127 0 0 1_5500_components_scrollspy html](https://github.com/user-attachments/assets/852a6909-4090-4039-a98b-7189ecc5bda5)
+spinners
+![127 0 0 1_5500_components_spinners html](https://github.com/user-attachments/assets/7d0d4ef1-da69-42e5-81a7-81662675cb9e)
+toasts
+![127 0 0 1_5500_components_toasts html](https://github.com/user-attachments/assets/3aef99a0-01e0-4736-b600-9789a7035c0e)
+your_float_picture
+![127 0 0 1_5500_components_your_float_picture html](https://github.com/user-attachments/assets/c499940c-90ae-4d11-96b9-feaa95357045)
