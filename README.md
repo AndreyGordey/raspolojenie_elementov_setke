@@ -2,6 +2,8 @@
 позиция элементов на сайте.
 ![127 0 0 1_5500_index html](https://github.com/user-attachments/assets/a02c3ddd-65a1-4bc8-b195-0bc4101aaa86)
 ![127 0 0 1_5500_vertikalniy_menu_gamberger html](https://github.com/user-attachments/assets/762a7df2-c2d8-4552-86c3-132aac901a5a)
+grow
+![127 0 0 1_5500_grow html](https://github.com/user-attachments/assets/e464d450-7d33-4d38-a55b-1230b53cf847)
 flex-grid
 ![127 0 0 1_5500_flex-grid html](https://github.com/user-attachments/assets/513f3c8b-a153-4982-ba06-9fc667d989f4)
 input_form
