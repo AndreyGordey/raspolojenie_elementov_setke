@@ -49,6 +49,8 @@ toasts
 ![127 0 0 1_5500_components_toasts html](https://github.com/user-attachments/assets/3aef99a0-01e0-4736-b600-9789a7035c0e)
 your_float_picture
 ![127 0 0 1_5500_components_your_float_picture html](https://github.com/user-attachments/assets/c499940c-90ae-4d11-96b9-feaa95357045)
+your_components
+![127 0 0 1_5501_components_your_advertising html](https://github.com/user-attachments/assets/3cadf2a2-799d-4917-bfda-4f995a3797d8)
 3 MOVE
 animation
 ![127 0 0 1_5500_move_animation html](https://github.com/user-attachments/assets/e72ab7d9-7f3e-4c44-be65-4ccfad634423)
