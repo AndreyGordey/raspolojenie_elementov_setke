@@ -1,0 +1,17 @@
+body {
+    height: 2000px; /* Увеличим высоту страницы для демонстрации прокрутки */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+.fixed-block {
+    position: fixed; /* Блок фиксируется относительно окна браузера */
+    top: 20px; /* Отступ сверху */
+    right: 20px; /* Отступ справа */
+    background-color: #4CAF50; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 15px; /* Внутренние отступы */
+    border-radius: 5px; /* Скругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Тень */
+}
