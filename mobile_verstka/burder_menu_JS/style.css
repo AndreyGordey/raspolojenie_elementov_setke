@@ -1,0 +1,231 @@
+:root {
+	box-sizing: border-box;
+	font-size: calc(1vw + 0.6em);
+  }
+  
+  body {
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /*******************************************
+  ********** ССЫЛКИ *************************
+  *******************************************/
+  a:link {
+	color: #1476bb;
+	font-weight: bold;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: #1414bb;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  a:active {
+	color: #b45514;
+  }
+  
+  /*******************************************
+  ************** ШАПКА ***********************
+  *******************************************/
+  header {
+	padding: 0.5em 1em;
+	background: #fff;
+  }
+  
+  .title > h1 {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin: .25em 0;
+  }
+  
+  .slogan {
+	color: #888;
+	font-size: .8em;
+	margin: 0;
+  }
+  
+  /*******************************************
+  ************** ASIDE ***********************
+  *******************************************/
+  .hero {
+	padding: 2em 1.5em;
+	text-align: center;
+	background: url(coffee-beans-small.jpg);
+	background-size: cover; /* Изменено на cover для лучшего отображения */
+	color: #fff;
+	text-shadow: 0.1em 0.1em 0.3em #000;
+  }
+  
+  /*******************************************
+  ************** MAIN ***********************
+  *******************************************/
+  main {
+	padding: 1.2em;
+  }
+  
+  .subtitle {
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+	font-size: 0.8em;
+	text-transform: uppercase;
+  }
+  
+  /*******************************************
+  ************** Menu ***********************
+  *******************************************/
+  .menu {
+	position: relative;
+  }
+  
+  .menu-toggle {
+	position: absolute;
+	top: -1.2em;
+	right: 0em;
+	border: 0;
+	background-color: transparent;
+	font-size: 3.1em;
+	width: 1em;
+	height: 1em;
+	line-height: 0.4em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 5em; /* Скрывает текст за пределами видимости */
+  }
+  
+  .menu-toggle::after {
+	position: absolute;
+	top: 0.4em;
+	left: 0.1em;
+	display: block;
+	content: "\2261"; /* Символ гамбургера */
+	text-indent: 0; /* Обнуляем отступ для видимости */
+  }
+  
+  .menu-dropdown {
+	display: none; /* Скрываем выпадающее меню по умолчанию */
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0;
+  }
+  
+  .menu.is-open .menu-dropdown {
+	display: block; /* Показываем выпадающее меню, когда оно открыто */
+  }
+  
+  .nav-menu {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #ccc; /* Граница меню */
+	background: #000; /* Фон меню */
+	color: #fff; /* Цвет текста в меню */
+  }
+  
+  .nav-menu > li + li {
+	border-top: 1px solid #ccc; /* Разделитель между элементами меню */
+  }
+  
+  .nav-menu > li > a {
+	display: block; /* Делаем ссылку блочным элементом */
+	padding: 0.7em 1em; /* Отступы внутри ссылок меню */
+	color: #fff; /* Цвет текста ссылок */
+	font-weight: normal; /* Нормальное начертание шрифта */
+  }
+  
+
+  @media (min-width: 560px) {
+	/* Увеличиваем размер шрифта заголовка h1 в секции .title */
+	.title > h1 {
+	  font-size: 2.2rem; /* Новый размер шрифта для заголовка */
+	}
+  
+	/* Изменяем отступы и размер шрифта в секции .hero */
+	.hero {
+	  padding: 5em 3em; /* Увеличиваем отступы сверху/снизу и по бокам */
+	  font-size: 1.3rem; /* Новый размер шрифта для текста в .hero */
+	}
+  
+	/* Скрываем кнопку меню на больших экранах */
+	.menu-toggle {
+	  display: none; /* Кнопка меню не отображается */
+	}
+  
+	/* Показываем выпадающее меню и изменяем его позицию */
+	.menu-dropdown {
+	  display: block; /* Выпадающее меню отображается */
+	  position: static; /* Позиция меню становится статичной */
+	}
+  
+	/* Настраиваем навигационное меню для отображения в виде flex-контейнера */
+	.nav-menu {
+	  display: flex; /* Используем flexbox для расположения элементов меню */
+	  border: 0; /* Убираем границу у меню */
+	  padding: 0 1em; /* Добавляем горизонтальные отступы */
+	  list-style-type: none; /* Убираем маркеры списка */
+	}
+  
+	/* Настраиваем элементы меню для равномерного распределения пространства */
+	.nav-menu > li {
+	  flex: 1; /* Каждый элемент меню занимает равное пространство */
+	}
+  
+	/* Убираем границы между элементами меню */
+	.nav-menu > li + li {
+	  border: 0; /* Убираем границу между элементами меню */
+	}
+  
+	/* Настраиваем ссылки внутри элементов меню */
+	.nav-menu > li > a {
+	  padding: 0.3em; /* Добавляем отступы внутри ссылок меню */
+	  text-align: center; /* Выравниваем текст по центру */
+	}
+  
+	/* Настраиваем строки для использования flexbox */
+	.row {
+	  display: flex; /* Используем flexbox для расположения колонок */
+	  margin-left: -0.75em; /* Убираем отрицательные отступы слева */
+	  margin-right: -0.75em; /* Убираем отрицательные отступы справа */
+	}
+  
+	/* Настраиваем колонки для равномерного распределения пространства */
+	.column {
+	  flex: 1; /* Каждая колонка занимает равное пространство */
+	  margin-left: 0.75em; /* Добавляем отступ слева */
+	  margin-right: 0.75em; /* Добавляем отступ справа */
+	}
+  }
+  
+@media (min-width: 35em) {
+	.hero{
+		padding: 5em 3em;
+		font-size: 1.2rem;
+		background: url(coffee-beans-medium.jpg);
+	}
+}
+@media (min-width: 50em) {
+	.page-header{
+		padding: 1.2em 4em;
+	}
+
+	.hero{
+		padding: 7em 6em;
+	}
+
+	.main{
+		padding: 2em 4em;
+	}
+
+	:root{
+		font-size: 1.2em;
+	}
+	.hero{
+		padding: 7em 5em;
+		background: url(coffee-beans.jpg);
+	}
+}
