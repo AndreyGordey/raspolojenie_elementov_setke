@@ -51,6 +51,8 @@ your_float_picture
 ![127 0 0 1_5500_components_your_float_picture html](https://github.com/user-attachments/assets/c499940c-90ae-4d11-96b9-feaa95357045)
 your_components
 ![127 0 0 1_5501_components_your_advertising html](https://github.com/user-attachments/assets/3cadf2a2-799d-4917-bfda-4f995a3797d8)
+your_vipadau_menu
+![127 0 0 1_5501_components_your_vipadau_menu html](https://github.com/user-attachments/assets/d05b31eb-e552-4d6f-9fdc-1bf5d876ec01)
 3 MOVE
 animation
 ![127 0 0 1_5500_move_animation html](https://github.com/user-attachments/assets/e72ab7d9-7f3e-4c44-be65-4ccfad634423)
