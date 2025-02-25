@@ -8,7 +8,7 @@ body {
 .slider {
     position: relative;
     /* изменить размер  */
-    max-width: 400px; 
+    max-width: 100px; 
     margin: auto;
     overflow: hidden;
 }
