@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8a8a8a;
+  }
+  
+  .rating-component {
+    text-align: center;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .star {
+    font-size: 40px;
+    cursor: pointer;
+    color: #ccc; /* Неактивная звезда */
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .star.active,
+  .star:hover,
+  .star:hover ~ .star {
+    color: #ffc107; /* Активная звезда */
+  }
+  
+  .rating-text {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
