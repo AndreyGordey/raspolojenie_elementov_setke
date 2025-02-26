@@ -62,6 +62,9 @@ transition
 ![127 0 0 1_5501_mobile_verstka_burder_menu_JS_index html](https://github.com/user-attachments/assets/10997f68-0612-4be0-8a08-6973cc117470)
 menu_2
 ![127 0 0 1_5501_mobile_verstka_burger-menu_index html](https://github.com/user-attachments/assets/a8768938-fab4-44ca-b66f-3cf21d63e1c2)
+star
+![127 0 0 1_5501_move_star html](https://github.com/user-attachments/assets/e8686163-2f83-447e-98cb-0424fb64aa6c)
+
 
 
 
