@@ -64,6 +64,10 @@ menu_2
 ![127 0 0 1_5501_mobile_verstka_burger-menu_index html](https://github.com/user-attachments/assets/a8768938-fab4-44ca-b66f-3cf21d63e1c2)
 star
 ![127 0 0 1_5501_move_star html](https://github.com/user-attachments/assets/e8686163-2f83-447e-98cb-0424fb64aa6c)
+1 Позиция в HTML
+img_in_button
+![127 0 0 1_5501_img_in_button html](https://github.com/user-attachments/assets/14f70b6f-719e-4b67-a32f-d239f59709fd)
+
 
 
 
